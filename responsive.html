@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Landing Page</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+        body {
+            text-align: center;
+        }
+        .hero {
+            background: #4CAF50;
+            color: white;
+            padding: 50px 20px;
+        }
+        .hero h1 {
+            margin-bottom: 10px;
+        }
+        .cta-button {
+            background: white;
+            color: #4CAF50;
+            padding: 10px 20px;
+            text-decoration: none;
+            font-size: 18px;
+            border-radius: 5px;
+            display: inline-block;
+            margin-top: 10px;
+        }
+        .features {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 40px 20px;
+        }
+        .feature {
+            flex: 1;
+            min-width: 250px;
+            max-width: 300px;
+            margin: 10px;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        .feature img {
+            max-width: 50px;
+        }
+        .footer {
+            background: #222;
+            color: white;
+            padding: 20px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <section class="hero">
+        <h1>Welcome to Our Service</h1>
+        <p>Providing the best solutions for your needs.</p>
+        <a href="#" class="cta-button">Sign Up Now</a>
+    </section>
+    <section class="features">
+        <div class="feature">
+            <img src="feature1.png" alt="Feature 1">
+            <h2>Feature One</h2>
+            <p>Short description of feature one.</p>
+        </div>
+        <div class="feature">
+            <img src="feature2.png" alt="Feature 2">
+            <h2>Feature Two</h2>
+            <p>Short description of feature two.</p>
+        </div>
+        <div class="feature">
+            <img src="feature3.png" alt="Feature 3">
+            <h2>Feature Three</h2>
+            <p>Short description of feature three.</p>
+        </div>
+    </section>
+    <section class="footer">
+        <p>Contact us: email@example.com | +123 456 7890</p>
+        <p>&copy; 2025 Our Service. All rights reserved.</p>
+    </section>
+</body>
+</html>
